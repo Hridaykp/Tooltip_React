@@ -1,3 +1,18 @@
+TOOLTIP =>
+
+  > Its a simple tooltip component such that when I hover over a button it shows me a tooltip. 
+  
+  > We can pass options : “top”, “bottom”, “right”, “left”.
+  
+  > According to the position the tooltip should render at that position...
+  
+Hosting Link -: https://hridaykp.github.io/Tooltip_React/
+
+preview Link -: [screen-capture (8).webm](https://user-images.githubusercontent.com/116939133/219457851-8e43ec5d-255b-4ae7-b4dd-7fb7dc93ddd0.webm)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
