@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(https://images.pexels.com/photos/8824033/pexels-photo-8824033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+  }
+  /*button's navbar positions*/
+  .btn-position{
+    margin-left: 10%;
+    width: 80%;
+    margin-left: none;
+    margin-top: 4%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /*selecting heading*/
+  .grp-name{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-style: italic;
+    text-shadow:  2px 4px 3px grey;
+  }
+  /*all buttons*/
+  .btn{
+    height: 60%;
+    margin-top: 1.1%;
+    margin-left: 2%;
+    width: 8%;
+    border: 3px solid grey;
+    border-radius: 0px;
+    background: rgba(255, 255, 255,0.2);
+    box-shadow:  6px 6px 5px rgb(63, 59, 59);
+    cursor: pointer;
+  }
+  
+  /* hover buttons styles */
+  #button-container{
+    width: 23%;
+    height: 20%;
+    margin-left: 38%;
+    margin-top: 20%;
+  }
+  
+  
+  .hover-btn{
+    height: 50%;
+    width: 100%;
+    font-size: 2rem;
+    font-family: cursive;
+    font-style: italic;
+  }
+  
+  
+   /* top position hovering */
+  .top{
+    height: 38%;
+    width: 60%;
+    margin-top: -50%;
+    margin-left: 20%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(15, 1, 36, 0.1);
+    
+  }
+    
+  /* right position hovering */
+  .right{
+      height: 38%;
+      width: 60%;
+      margin-top:-22%;
+      margin-left: 105%;
+      padding: 6px 10px 15px 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: rgba(104, 23, 227, 0.1);
+  }
+  
+  /* down position hovering */
+  .down{
+    height: 38%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(104, 23, 227, 0.1);
+  }
+  
+  /* left position hovering */
+  .left{
+    height: 48%;
+    width: 52%;
+    margin-top:-22%;
+    margin-left: -60%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(104, 23, 227, 0.1);
+  }
+  .active{
+    background-color:rgba(104, 23, 227, 0.3) ;
+  }
